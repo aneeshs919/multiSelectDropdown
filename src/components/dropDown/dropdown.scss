@@ -1,0 +1,41 @@
+$bgColor: white;
+$border: gray;
+$width: 250px;
+$height: 200px;
+
+
+ul.dropdownWrap{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: $width;
+  max-height: $height;
+  overflow: auto;
+  padding: 15px;
+  position: relative;
+  background-color: $bgColor;
+  border: 1px solid $border;
+  color: black;
+  border-radius: 5px;
+  text-align: left;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active{
+  padding: 5px 10px;
+  background-color: #f3f5ff;
+  color: #8393df;
+  span {
+    color: #8393df;
+  }
+}

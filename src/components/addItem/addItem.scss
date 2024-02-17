@@ -1,0 +1,15 @@
+$bgColor: white;
+$border: gray;
+$width: 250px;
+
+.dropdownWrap {
+  position: relative;
+  width: $width;
+  padding: 15px;
+  position: relative;
+  background-color: $bgColor;
+  border: 1px solid $border;
+  color: black;
+  border-radius: 5px;
+  text-align: left;
+}

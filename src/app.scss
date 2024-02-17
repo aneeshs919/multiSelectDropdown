@@ -1,0 +1,14 @@
+$bgColor: white;
+$border: gray;
+$width: 250px;
+
+.dropdownContainer {
+    position: relative;
+    font-size: 16px;
+}
+.selectedOptions {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: aquamarine;
+    text-transform: capitalize;
+}
